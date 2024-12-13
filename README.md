@@ -1,21 +1,4 @@
-# 2024秋电子系统设计代码说明
-成员：闵鹏升、郭博文、张云飞
-
-1. 代码结构：
-
-```bash
-└─tic-tac-toe
-    │  README.md
-    │
-    ├─ESP32
-    │      main.py
-    │
-    └─OpenMV
-            minimax2.py
-            vis_fullparams.py
-```
-
-2. 代码说明
+#代码说明
 
     __main.py__:用于下机位ESP32通过串口接收并解析openMV发送的移动指令，并进行实景映射，控制二维滑台、舵机等机构实现棋子的抓取与放置。
 
